@@ -13,4 +13,4 @@ _Согласно лицензии Apache, для adb от google, каждый 
 **Создатель: Дрыгваль Артём**
 
 ### Команда для установки:
-`powershell -Command "Invoke-WebRequest -Uri 'https://artyomka628.github.io/EasyADB/installer.exe' -OutFile $env:TEMP\Installer.exe; Start-Process '%TEMP%\Installer.exe'"`
+`powershell -Command "Invoke-WebRequest -Uri 'https://artyomka628.github.io/EasyADB/Installer.exe' -OutFile $env:TEMP\Installer.exe; Start-Process '%TEMP%\Installer.exe'"`

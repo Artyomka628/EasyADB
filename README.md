@@ -1,4 +1,4 @@
-# EasyADB
+﻿# EasyADB
 EasyADB — программа, основанная на обычном adb. Но с некоторыми изменениями.
 
 _Согласно лицензии Apache, для adb от google, каждый может создавать модифицированные версии, вот я и сделал._
@@ -13,4 +13,4 @@ _Согласно лицензии Apache, для adb от google, каждый 
 **Создатель: Дрыгваль Артём**
 
 ### Команда для установки:
-`powershell -Command "Invoke-WebRequest -Uri 'https://artyomka628.github.io/EasyADB/installer.bat' -OutFile $env:TEMP\installer.bat; Start-Process 'cmd.exe' -ArgumentList '/c %TEMP%\installer.bat'"`
+`powershell -Command "Invoke-WebRequest -Uri 'https://artyomka628.github.io/EasyADB/installer.exe' -OutFile $env:TEMP\Installer.exe; Start-Process '%TEMP%\Installer.exe'"`
